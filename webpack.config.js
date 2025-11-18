@@ -9,16 +9,16 @@ module.exports = (env, options) } = options;
      hbs|md)$/,
       use: ['raw-loader'],
     },
-    {
+  
       test: /\.m.(sa|sc|c)ss$/,
       use: [
         'raw-loader',
         'postcss-loader',
         'sass-loader',
-      ],
+     
    
     {
-      test: /\.(png|svg|jpg|jpeg|ico|ttf|webp|eot|woff|webm|mp4|webp|wav)(\?.*)?$/,
+      test: /\.|eot|woff|webm|mp4|webp|wav)(\?.*)?$/,
       type: "asset/resource",
     },
     {
