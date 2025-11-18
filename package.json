@@ -1,5 +1,5 @@
 {
-  "name": "com.foxdebug.acode",
+  "name": "com.foxdebug.acod
   "displayName": "Acode",
   "version": "1.11.6",
   "description": "Acode is a code editor for android",
@@ -14,8 +14,8 @@
     "format": "biome format --write",
     "check": "biome check --write",
     "updateAce": "node ./utils/updateAce.js"
-  },
-  "keywords": [
+ 
+eywords": [
     "ecosystem:cordova"
   ],
   "author": "Foxdebug (Ajit Kumar)",
