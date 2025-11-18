@@ -1,7 +1,7 @@
 android {
     packagingOptions {
         pickFirst 'META-INF/versions/9/OSGI-INF/MANIFEST.MF'
-    }
+   
 }
 
 configurations {
@@ -11,5 +11,4 @@ configurations {
       exclude group: 'org.bouncycastle', module: 'bcpkix-jdk15on'
       exclude group: 'org.bouncycastle', module: 'bcpkix-jdk18on'
       exclude group: 'org.bouncycastle', module: 'bcprov-jdk18on'
-  }
-}
+  
