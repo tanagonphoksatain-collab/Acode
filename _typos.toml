@@ -4,16 +4,16 @@ check-filename = true
 [files]
 extend-exclude = [
     "node_modules",
-    "www",
+    
     "*.yaml",
-    ".vscode",
+    ".vscode
     "fastlane",
     "hooks",
     "*.gradle",
     "plugins",
     "platforms",
     "src/lang/ar-ye.json",
-    "src/lang/be-by.json",
+    "src/lang/be-b
     "src/lang/bn-bd.json",
     "src/lang/cs-cz.json",
     "src/lang/de-de.json",
