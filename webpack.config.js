@@ -2,10 +2,8 @@ const path = require('path');
 const fs = require('fs'
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-const WWW = path.resolve(__dirname, 'www');
-
-module.exports = (env, options) => {
-  const { mode = 'development' } = options;
+const WWW = path.resol
+module.exports = (env, options) } = options;
   rules = [
     {
      hbs|md)$/,
