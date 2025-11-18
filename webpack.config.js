@@ -1,14 +1,14 @@
 const path = require('path');
-const fs = require('fs');
+const fs = require('fs'
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const WWW = path.resolve(__dirname, 'www');
 
 module.exports = (env, options) => {
   const { mode = 'development' } = options;
-  const rules = [
+  rules = [
     {
-      test: /\.(hbs|md)$/,
+     hbs|md)$/,
       use: ['raw-loader'],
     },
     {
@@ -18,7 +18,7 @@ module.exports = (env, options) => {
         'postcss-loader',
         'sass-loader',
       ],
-    },
+   
     {
       test: /\.(png|svg|jpg|jpeg|ico|ttf|webp|eot|woff|webm|mp4|webp|wav)(\?.*)?$/,
       type: "asset/resource",
